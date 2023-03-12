@@ -34,6 +34,23 @@
     foreach ($colors as $value) {
         echo "$value <br>";
     }
+
+    //Increments stars
+    for ($i = 0; $i <= 5; $i++) {
+        for ($j = 0; $j <= $i; $j++) {
+            echo "*";
+        }
+        echo "<br>";
+    }
+    echo "<br>";
+
+    //Decrement Stars 
+    for ($i = 0; $i <= 5; $i++) {
+        for ($j = 5 - $i; $j >= 0; $j--) {
+            echo "*";
+        }
+        echo "<br>";
+    }
     ?>
 </body>
 
