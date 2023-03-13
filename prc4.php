@@ -11,15 +11,14 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
 </head>
 
-<body style="font-family: 'Poppins'; margin: 70px; letter-spacing: .8px;">
+<body style="font-family: 'Poppins'; letter-spacing: .8px;">
     <?php
-    echo "<h1>Humayun Khan, 2005690093</h1>";
+    echo "<h1>Practical 4:</h1>";
     echo "<hr>";
-    // Indexed Array
+
     $cars = array("Supra", "Skyline", "Mushtang");
     echo "I like " . $cars[0] . ", " . $cars[1] . " and " . $cars[2] . ". <hr>";
 
-    // Loop  through an Indexed Array
     $arrLength = count($cars);
     for ($x = 0; $x < $arrLength; $x++) {
         echo $cars[$x];
@@ -27,19 +26,16 @@
     }
     echo "<hr>";
 
-    // Associate Arrays
     $age = array("Humayun" => "19", "Tasmiya" => "19");
     echo "Humayun is " . $age["Humayun"] .
         " years and Tasmiya is also " . $age["Tasmiya"] . " years old. <hr>";
 
-    // Loop through an Associate Array
     foreach ($age as $x => $x_value) {
         echo "Name: " . $x . ", Age: " . $x_value;
         echo "<br>";
     }
     echo "<hr>";
 
-    // Multi-dimensional Array
     $cars = array(
         array("Supra", 22, 18),
         array("Skyline", 15, 13),
@@ -50,7 +46,6 @@
     echo $cars[2][0] . ": Sold: " . $cars[2][1], ", In Stock: " . $cars[2][2] . ". <br>";
     echo "<hr>";
 
-    // Loop through a Multi-dimensional Array
     $cars = array(
         array("Supra", 22, 18),
         array("Skyline", 15, 13),

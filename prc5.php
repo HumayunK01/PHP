@@ -11,7 +11,7 @@
     <title>Practical 5</title>
 </head>
 
-<body style="font-family: 'Poppins'; margin: 70px;">
+<body style="font-family: 'Poppins';">
     <?php
     echo "<h1>Practical 05</h1><hr>";
     echo "<i>1.a) Write a PHP program to calculate length of string:</i><br>";
@@ -59,7 +59,7 @@
     echo "<br><br>";
 
     echo "Using <b>strlen()</b>:<br>";
-    $str = "my name is Sonoo jaiswal";
+    $str = "My Name Is Humayun Khan";
     $str = strlen($str);
     echo $str;
     echo "<br><hr>";
