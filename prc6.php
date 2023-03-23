@@ -25,7 +25,7 @@
     {
         public function view()
         {
-            echo "In PHP";
+            echo "In PHP<br>";
         }
     }
     $obj = new demo1();
@@ -44,7 +44,7 @@
             $this -> property2 = $arg2;
         }
     }
-    $obj = new MyClass('Humayun ', 'Khan');
+    $obj = new MyClass('Humayun ', 'Khan<br>');
     echo $obj -> property1;
     echo $obj -> property2;
 
