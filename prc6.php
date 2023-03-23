@@ -11,7 +11,7 @@
     <title>Practical 06</title>
 </head>
 
-<body style="font-family: 'Poppins'; font-size: 3rem;">
+<body>
     <?php
     //(Demo code for inheritance):
     class demo
@@ -76,7 +76,7 @@
         }
     }
     $obj = new Apple("Apple iPhone 14 Pro", "Green");
-    $obj->message();
+    $obj -> message();
     ?>
 </body>
 
