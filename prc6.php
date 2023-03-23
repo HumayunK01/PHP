@@ -29,8 +29,8 @@
         }
     }
     $obj = new demo1();
-    $obj->display();
-    $obj->view();
+    $obj -> display();
+    $obj -> view();
 
     //(Demo code for constructor):
     class MyClass
