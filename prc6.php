@@ -45,8 +45,8 @@
         }
     }
     $obj = new MyClass('Humayun ', 'Khan<br>');
-    echo $obj->property1;
-    echo $obj->property2;
+    echo $obj -> property1;
+    echo $obj -> property2;
 
     // Protected Access Modifier code
     /* Parent Class (Also called superclass and base class) */
