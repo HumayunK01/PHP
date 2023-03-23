@@ -11,7 +11,7 @@
     <title>Practical 06</title>
 </head>
 
-<body>
+<body style="font-family: 'Poppins'; font-size: 30px;">
     <?php
     //(Demo code for inheritance):
     class demo
@@ -63,7 +63,7 @@
 
         protected function intro()
         {
-            echo "The phone is {$this->name} and the color is {$this->color}.";
+            echo "The phone is {$this -> name} and the color is {$this -> color}.";
         }
     }
     /* Child class (Also called derived class,  extended class, and subclass) */
