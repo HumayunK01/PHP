@@ -57,8 +57,8 @@
 
         function __construct($name, $color)
         {
-            $this->name = $name;
-            $this->color = $color;
+            $this -> name = $name;
+            $this -> color = $color;
         }
 
         protected function intro()
@@ -72,7 +72,7 @@
         function message()
         {
             echo "About Phone: ";
-            $this->intro();
+            $this -> intro();
         }
     }
     $obj = new Apple("Apple iPhone 14 Pro", "Green");
