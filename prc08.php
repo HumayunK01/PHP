@@ -56,6 +56,15 @@
         echo "You haven't selected any fruit";
     }
     ?>
+
+    <!-- ------ Code for Hidden Field Box ------ -->
+    <form action="Prac_8_1.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <input type="hidden" id="custId" name="custId" value="3487">
+        <input type="submit" value="Submit">
+    </form>
+
 </body>
 
 </html>
