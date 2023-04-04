@@ -10,8 +10,6 @@
         rel="stylesheet" />
     <title>Practical 10</title>
 </head>
-<!-- Cookies are stored in browser as text -->
-<!-- Sessions are stored in server side -->
 
 <body style="font-family: 'Poppins'; font-size: 1.5rem;">
     <?php
